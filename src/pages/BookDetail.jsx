@@ -15,6 +15,7 @@ export default function BookDetail() {
 
   return (
     <>
+    {/* comments */}
       {error && <p className="text-center text-red-500">{error}</p>}
       {loading && <p className="text-center text-gray-500">Loading...</p>}
       {book && (
